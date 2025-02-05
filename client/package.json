@@ -1,0 +1,30 @@
+{
+  "name": "my-expo-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "~48.0.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.71.0",
+    "react-navigation": "^6.0.0",
+    "axios": "^0.27.2",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5",
+    "dotenv": "^10.0.0",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "9.0.0"
+  },
+  "homepage": "https://github.com/yourusername/my-expo-app",
+  "license": "MIT"
+}
